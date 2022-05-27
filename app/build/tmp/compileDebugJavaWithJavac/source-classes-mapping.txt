@@ -1,0 +1,50 @@
+com/daCodes/demo/databinding/ItemSubModelBinding.java
+ com.daCodes.demo.databinding.ItemSubModelBinding
+com/daCodes/demo/databinding/ItemModelBindingImpl.java
+ com.daCodes.demo.databinding.ItemModelBindingImpl
+com/daCodes/demo/databinding/FragmentListModelsBindingImpl.java
+ com.daCodes.demo.databinding.FragmentListModelsBindingImpl
+com/daCodes/demo/databinding/ItemBrandBinding.java
+ com.daCodes.demo.databinding.ItemBrandBinding
+com/daCodes/demo/databinding/FragmentSplashBinding.java
+ com.daCodes.demo.databinding.FragmentSplashBinding
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/daCodes/demo/databinding/ItemBrandBindingImpl.java
+ com.daCodes.demo.databinding.ItemBrandBindingImpl
+com/daCodes/demo/BR.java
+ com.daCodes.demo.BR
+com/daCodes/demo/databinding/ActivityMainBinding.java
+ com.daCodes.demo.databinding.ActivityMainBinding
+com/daCodes/demo/databinding/FragmentListBrandsBindingImpl.java
+ com.daCodes.demo.databinding.FragmentListBrandsBindingImpl
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/daCodes/demo/databinding/FragmentListBrandsBinding.java
+ com.daCodes.demo.databinding.FragmentListBrandsBinding
+com/daCodes/demo/DataBinderMapperImpl.java
+ com.daCodes.demo.DataBinderMapperImpl
+ com.daCodes.demo.DataBinderMapperImpl$InnerBrLookup
+ com.daCodes.demo.DataBinderMapperImpl$InnerLayoutIdLookup
+com/daCodes/demo/DataBindingTriggerClass.java
+ com.daCodes.demo.DataBindingTriggerClass
+com/daCodes/demo/databinding/ItemSubModelBindingImpl.java
+ com.daCodes.demo.databinding.ItemSubModelBindingImpl
+com/daCodes/demo/databinding/FragmentSplashBindingImpl.java
+ com.daCodes.demo.databinding.FragmentSplashBindingImpl
+com/daCodes/demo/databinding/ItemShimmerModelBinding.java
+ com.daCodes.demo.databinding.ItemShimmerModelBinding
+com/daCodes/demo/databinding/ItemShimmerModelBindingImpl.java
+ com.daCodes.demo.databinding.ItemShimmerModelBindingImpl
+com/daCodes/demo/BuildConfig.java
+ com.daCodes.demo.BuildConfig
+com/daCodes/demo/databinding/ItemShimmerBrandBindingImpl.java
+ com.daCodes.demo.databinding.ItemShimmerBrandBindingImpl
+com/daCodes/demo/databinding/ItemShimmerBrandBinding.java
+ com.daCodes.demo.databinding.ItemShimmerBrandBinding
+com/daCodes/demo/databinding/ItemModelBinding.java
+ com.daCodes.demo.databinding.ItemModelBinding
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/daCodes/demo/databinding/FragmentListModelsBinding.java
+ com.daCodes.demo.databinding.FragmentListModelsBinding

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/dimen10">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardItemBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/dimen10"
+        app:cardElevation="@dimen/dimen10">
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmer_view_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:shimmer_auto_start="true"
+            app:shimmer_duration="1500">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen10">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ivLogo"
+                    android:layout_width="@dimen/dimen100"
+                    android:layout_height="@dimen/dimen100"
+                    android:backgroundTint="@color/shimmer_color"
+                    android:elevation="@dimen/dimen0"
+                    app:cardCornerRadius="@dimen/dimen10"
+                    app:cardElevation="@dimen/dimen0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:id="@+id/linearTexts"
+                    android:layout_width="@dimen/dimen0"
+                    android:layout_height="@dimen/dimen0"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/actions"
+                    app:layout_constraintStart_toEndOf="@+id/ivLogo"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/description"
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                        android:layout_width="@dimen/dimen100"
+                        android:layout_height="@dimen/dimen20"
+                        android:backgroundTint="@color/shimmer_color"
+                        android:elevation="@dimen/dimen0"
+                        app:cardCornerRadius="@dimen/dimen10"
+                        app:cardElevation="@dimen/dimen0" />
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/countries"
+                        style="@style/Widget.AppCompat.TextView"
+                        android:layout_width="@dimen/dimen70"
+                        android:layout_height="@dimen/dimen15"
+                        android:layout_marginTop="@dimen/dimen5"
+                        android:backgroundTint="@color/shimmer_color"
+                        android:elevation="@dimen/dimen0"
+                        app:cardCornerRadius="@dimen/dimen10"
+                        app:cardElevation="@dimen/dimen0" />
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/create"
+                        style="@style/Widget.AppCompat.TextView"
+                        android:layout_width="@dimen/dimen90"
+                        android:layout_height="@dimen/dimen15"
+                        android:layout_marginTop="@dimen/dimen5"
+                        android:background="@color/shimmer_color"
+                        android:backgroundTint="@color/shimmer_color"
+                        android:elevation="@dimen/dimen0"
+                        app:cardCornerRadius="@dimen/dimen10"
+                        app:cardElevation="@dimen/dimen0" />
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/actions"
+                    android:layout_width="@dimen/dimen70"
+                    android:layout_height="@dimen/dimen0"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/linearTexts"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/ivRight"
+                        android:layout_width="@dimen/dimen30"
+                        android:layout_height="@dimen/dimen60"
+                        android:background="@color/shimmer_color"
+                        android:backgroundTint="@color/shimmer_color"
+                        android:elevation="@dimen/dimen0"
+                        android:fitsSystemWindows="true"
+                        android:scaleType="centerCrop"
+                        app:cardCornerRadius="@dimen/dimen10"
+                        app:cardElevation="@dimen/dimen0"
+                        app:layout_collapseMode="parallax" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</layout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_list_models_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/lineGuideLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.05" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/lineGuideRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.95" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardTitle"
+            android:layout_width="@dimen/dimen0"
+            android:layout_height="@dimen/dimen80"
+            android:layout_marginTop="@dimen/dimen20"
+            app:cardBackgroundColor="@color/design_default_color_primary"
+            app:cardCornerRadius="@dimen/dimen10"
+            app:cardElevation="@dimen/dimen10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/lineGuideRight"
+            app:layout_constraintStart_toStartOf="@+id/lineGuideLeft"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/titleModel"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen30"
+                    android:layout_weight="1"
+                    android:text="@string/models_title"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp20"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listModels"
+            android:layout_width="@dimen/dimen0"
+            android:layout_height="@dimen/dimen0"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/dimen10"
+            android:layout_marginBottom="@dimen/dimen10"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/lineGuideRight"
+            app:layout_constraintStart_toStartOf="@+id/lineGuideLeft"
+            app:layout_constraintTop_toBottomOf="@+id/cardTitle"
+            app:layout_constraintVertical_bias="0"
+            tools:itemCount="5"
+            tools:listitem="@layout/item_model" />
+
+        <LinearLayout
+            android:id="@+id/loadingView"
+            android:layout_width="@dimen/dimen0"
+            android:layout_height="@dimen/dimen0"
+            android:layout_marginTop="@dimen/dimen20"
+            android:layout_marginBottom="@dimen/dimen20"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/lineGuideRight"
+            app:layout_constraintStart_toStartOf="@+id/lineGuideLeft"
+            app:layout_constraintTop_toBottomOf="@+id/cardTitle"
+            app:layout_constraintVertical_bias="0"
+            tools:visibility="visible" android:tag="binding_1">
+
+            <include layout="@layout/item_shimmer_model" />
+
+            <include layout="@layout/item_shimmer_model" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnError"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/retry"
+            android:visibility="gone" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

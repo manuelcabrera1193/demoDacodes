@@ -1,0 +1,2 @@
+com/daCodes/domain/BuildConfig.java
+ com.daCodes.domain.BuildConfig

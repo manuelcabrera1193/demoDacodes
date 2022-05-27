@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">DemoDacodes</string>
+    <string name="app_name">Demo</string>
+    <string name="models_title">Models </string>
+    <string name="brands_title">Brands</string>
+    <string name="checkTextListBrand">Select more\nthan one\n( >1 )</string>
+    <string name="subModel">Sub Models :</string>
+    <string name="getModels">Get Models</string>
+    <string name="validate_brands">select at least one brand</string>
+    <string name="error">Error</string>
 </resources>

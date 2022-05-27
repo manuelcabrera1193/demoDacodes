@@ -53,6 +53,8 @@ dependencies {
     //Coroutines
     api "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
     api 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2'
+    implementation project(path: ':models')
+    implementation project(path: ':domain')
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_shimmer_brand.xml",
+        "source": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\src\\main\\res\\layout\\item_shimmer_brand.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_list_brands.xml",
+        "source": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\src\\main\\res\\layout\\fragment_list_brands.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_shimmer_model.xml",
+        "source": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\src\\main\\res\\layout\\item_shimmer_model.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_list_models.xml",
+        "source": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\src\\main\\res\\layout\\fragment_list_models.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_brand.xml",
+        "source": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\src\\main\\res\\layout\\item_brand.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_model.xml",
+        "source": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\src\\main\\res\\layout\\item_model.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_sub_model.xml",
+        "source": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\src\\main\\res\\layout\\item_sub_model.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_splash.xml",
+        "source": "C:\\Users\\MANUEL\\AndroidStudioProjects\\Demo\\app\\src\\main\\res\\layout\\fragment_splash.xml"
+    }
+]

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+                                                       
+                                                  
+                                           
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardItemModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="@dimen/dimen10"
+        app:cardElevation="@dimen/dimen10" android:tag="layout/item_shimmer_model_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_margin="@dimen/dimen10">
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmer_view_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:shimmer_auto_start="true"
+            app:shimmer_duration="1500">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen10">
+
+                <LinearLayout
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen30"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/aabb"
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimen50"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:elevation="@dimen/dimen0"
+                        android:gravity="center"
+                        android:paddingStart="@dimen/dimen30"
+                        android:paddingEnd="@dimen/dimen20"
+                        android:textSize="@dimen/sp12"
+                        app:cardBackgroundColor="@color/shimmer_color"
+                        app:cardCornerRadius="@dimen/dimen10"
+                        app:cardElevation="@dimen/dimen0"
+                        tools:text="@string/app_name" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/dimen10"
+                    android:id="@+id/linearTexts"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen50"
+                    android:layout_marginBottom="@dimen/dimen20"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="6"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/dimen50"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/aa"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                            android:layout_width="@dimen/dimen50"
+                            android:layout_height="@dimen/dimen50"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:elevation="@dimen/dimen0"
+                            android:gravity="center"
+                            android:paddingStart="@dimen/dimen30"
+                            android:paddingEnd="@dimen/dimen20"
+                            android:textSize="@dimen/sp12"
+                            app:cardBackgroundColor="@color/shimmer_color"
+                            app:cardCornerRadius="@dimen/dimen10"
+                            app:cardElevation="@dimen/dimen0"
+                            tools:text="@string/app_name" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/dimen50"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/a"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                            android:layout_width="@dimen/dimen100"
+                            android:layout_height="@dimen/dimen20"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:elevation="@dimen/dimen0"
+                            android:gravity="center"
+                            android:paddingStart="@dimen/dimen30"
+                            android:paddingEnd="@dimen/dimen20"
+                            android:textSize="@dimen/sp12"
+                            app:cardBackgroundColor="@color/shimmer_color"
+                            app:cardCornerRadius="@dimen/dimen10"
+                            app:cardElevation="@dimen/dimen0"
+                            tools:text="@string/app_name" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/dimen50"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/b"
+                            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                            android:layout_width="@dimen/dimen100"
+                            android:layout_height="@dimen/dimen20"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:elevation="@dimen/dimen0"
+                            android:gravity="center"
+                            android:paddingStart="@dimen/dimen20"
+                            android:paddingEnd="@dimen/dimen20"
+                            android:textSize="@dimen/sp12"
+                            app:cardBackgroundColor="@color/shimmer_color"
+                            app:cardCornerRadius="@dimen/dimen10"
+                            app:cardElevation="@dimen/dimen0"
+                            tools:text="@string/app_name" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/dimen50"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c"
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                    android:layout_width="@dimen/dimen100"
+                    android:layout_height="@dimen/dimen20"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/dimen10"
+                    android:layout_marginTop="@dimen/dimen10"
+                    android:layout_weight="1"
+                    android:elevation="@dimen/dimen0"
+                    android:gravity="center"
+                    app:cardBackgroundColor="@color/shimmer_color"
+                    app:cardCornerRadius="@dimen/dimen10"
+                    app:cardElevation="@dimen/dimen0"
+                    app:layout_constraintBottom_toTopOf="@+id/d"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearTexts" />
+
+                <LinearLayout
+                    android:id="@+id/d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/c">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/e"
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                        android:layout_width="@dimen/dimen200"
+                        android:layout_height="@dimen/dimen70"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/dimen5"
+                        android:layout_weight="1"
+                        android:elevation="@dimen/dimen0"
+                        android:gravity="center"
+                        app:cardBackgroundColor="@color/shimmer_color"
+                        app:cardCornerRadius="@dimen/dimen10"
+                        app:cardElevation="@dimen/dimen0" />
+
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+         
